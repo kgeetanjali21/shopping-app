@@ -17,19 +17,19 @@ const InsuranceCard = (props) => {
                         <LogoImage insuranceId={insuranceProviderId} />
                     </div>
                     <div className='card-detail-wrap'>
-                        <p className='plan-name'>
+                        <p>
                             <span className='highlight-text'>Plan Name: </span>
                             {plan.planName}
                         </p>
-                        <p className='provider-name'>
+                        <p>
                             <span className='highlight-text'>Insurance Provider: </span>
                             {plan.insuranceProviderName}
                         </p>
-                        <p className='sum-insured'>
+                        <p>
                             <span className='highlight-text'>Sum Insured: </span>
                             {sumInsured}
                         </p>
-                        <p className='total-amount'>
+                        <p>
                             <span className='highlight-text'>Premium: </span>
                             {totalAmount.amount}
                         </p>
