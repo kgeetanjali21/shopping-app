@@ -1,6 +1,5 @@
 .card-listing {
     display: flex;
-    width: 85%;
     margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,6 +12,34 @@
 
         .highlight-text {
             font-weight: bold;
+        }
+
+        .card-logo-wrap {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 15px;
+
+            .image-logo {
+                width: 50%;
+            }
+        }
+
+        .card-detail-wrap {
+            height: 190px;
+
+            p {
+                padding: 7px 0;
+                line-height: 1.2;
+            }
+        }
+
+        .detail-link {
+            padding: 10px;
+            border: 1px solid;
+            display: inline-block;
+            border-radius: 10px;
         }
     }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import insuranceData from '../insurance.json';
 import InsuranceCard from './InsuranceCard.js';
+import '../assets/style/listing.scss';
 
 class CardListing extends Component {
     render() {

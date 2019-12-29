@@ -2,7 +2,7 @@ import React from 'react';
 import CardListing from './components/CardListing';
 import ProductDetail from './components/ProductDetail';
 import ErrorPage from './components/ErrorPage';
-import './assets/style/listing.scss';
+import './assets/style/index.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
