@@ -1,0 +1,18 @@
+.card-listing {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .card-group {
+        width: 20%;
+        padding: 10px;
+        margin: 10px 10px;
+        border: 1px solid #000;
+
+        .highlight-text {
+            font-weight: bold;
+        }
+    }
+}

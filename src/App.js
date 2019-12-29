@@ -1,16 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CardListing from './components/CardListing';
+import ProductDetail from './components/ProductDetail';
+import ErrorPage from './components/ErrorPage';
+import './assets/style/listing.scss';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <h1 className="page-heading">Buy Insurance</h1>
-      <div>
-        <div className="insurance-container">
-        </div>
-      </div>
+      <Switch>
+        <Route path='/' exact component={CardListing} />
+        <Route path='/detail/:id' exact component={ProductDetail} />
+        <Route component={ErrorPage} />
+      </Switch>
     </div>
+    </Router>
   );
 }
 
