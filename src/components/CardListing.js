@@ -43,9 +43,22 @@ class CardListing extends Component {
         return (
             <React.Fragment>
                 <div className='sort-filter-tab'>
+
+                    {/* Sort the list */}
                     <label>
                         Sort By: 
                         <select onChange={this.handleChange}>
+                            <option value='' defaultValue>Please select--</option>
+                            <option>Highest Premium</option>
+                            <option>Lowest Premium</option>
+                            <option>Highest Created</option>
+                            <option>Lowest Created</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Filter by:
+                        <select>
                             <option value='' defaultValue>Please select--</option>
                             <option>Highest Premium</option>
                             <option>Lowest Premium</option>

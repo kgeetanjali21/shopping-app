@@ -45,3 +45,15 @@
         }
     }
 }
+
+.sort-filter-tab {
+    label {
+        margin: 10px;
+        display: inline-block;
+
+        select {
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+}
