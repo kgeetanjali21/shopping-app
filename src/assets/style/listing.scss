@@ -8,7 +8,9 @@
         width: 20%;
         padding: 10px;
         margin: 10px 10px;
-        border: 1px solid #000;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.3); 
+        box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.3);
 
         .highlight-text {
             font-weight: bold;
